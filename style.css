@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+html{
+  
+  scroll-behavior: smooth;
+}
+
+#tittle {
+    background-color: rgba(240, 248, 255, 0.429);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: justify;
+}
+
+li {
+  margin: 10px;
+}
+
+body {
+    background-image: url();
+    background-color: #1B1B1B;
+    margin: 0;
+}
+
+#Titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: black;
+}
+
+#container {
+  display: flex;
+}
+
+.indice {
+    width: 35%;
+    height: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.central {
+    width: auto;
+    height: 100%;
+    float: left;
+    
+}
+
+.noticias {
+    width: 75%;
+    height: 100%;
+    float: right;
+    overflow: auto;
+    height: 100vh;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mapa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#youtube {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://www.teahub.io/photos/full/48-483956_photo-wallpaper-bali-nusa-penida-broken-beach-beach.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {box-sizing:border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display:none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.noticiaBALI {
+  margin-left: 10%;
+  margin-right: 5%;
+  margin-bottom: 10%;
+}
+
+.image img {
+  width: 300px;
+  height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+
+header, #tittle h1 {
+  width: 100%;
+  font-size: 100%;
+}
+
+.indice {
+  width: 15%;
+  margin-right: 10%;
+}
+
+.central {
+  width: 50%;
+}
+
+.noticias {
+  width: 35%;
+}
+
+p, a{
+  font-size:xx-small;
+}
+
+h1, h2, h3 {
+  font-size: medium;
+}
+.imagen img {
+ width: 100%;
+  height: 100%;
+}
+
+.central iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.noticias iframe {
+  width: 100%;
+  height: 100%;
+}
+
+#imagen img {
+  width: 100%;
+  
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+}
