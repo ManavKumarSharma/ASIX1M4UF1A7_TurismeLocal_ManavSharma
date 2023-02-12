@@ -196,7 +196,7 @@ header, #tittle h1 {
 }
 
 .indice {
-  width: 15%;
+  width: 20%;
   margin-right: 10%;
 }
 
@@ -208,7 +208,7 @@ header, #tittle h1 {
   width: 35%;
 }
 
-p, a{
+p, a {
   font-size:xx-small;
 }
 
@@ -239,5 +239,4 @@ h1, h2, h3 {
   width: 100%;
   height: 100%;
 }
-
 }
